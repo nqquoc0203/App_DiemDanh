@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintRight_toRightOf="parent"
+    app:layout_constraintLeft_toLeftOf="parent"
+    tools:context=".UI.TestActivity"
+    android:background="#FFDDE9">
+    <LinearLayout
+        android:id="@+id/llabc"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center">
+
+        <TextView
+            android:textStyle="bold"
+            android:id="@+id/monthYearTV"
+            android:layout_width="240dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/alata"
+            android:layout_marginLeft="16dp"
+            android:text="Feb 2021"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="35sp" />
+        <ImageButton
+            android:layout_width="70dp"
+            android:layout_height="60dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/baseline_arrow_back_ios_24"
+            android:onClick="previousMonthAction"
+            android:background="@null"
+            android:layout_marginRight="40dp"/>
+
+        <ImageButton
+            android:layout_width="70dp"
+            android:layout_height="60dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/baseline_arrow_forward_ios_24"
+            android:background="@null"
+            android:textStyle="bold"
+            android:onClick="nextMonthAction"
+            android:layout_marginRight="25dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:id="@+id/llacbd"
+        app:layout_constraintTop_toBottomOf="@+id/llabc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:textStyle="bold"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="@font/alata"
+            android:text="SUN"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+
+        <TextView
+            android:textStyle="bold"
+            android:fontFamily="@font/alata"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="MON"
+            android:textColor="@color/black"
+            android:textAlignment="center"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:textStyle="bold"
+            android:fontFamily="@font/alata"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="TUE"
+            android:textColor="@color/black"
+            android:textAlignment="center"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:textStyle="bold"
+            android:fontFamily="@font/alata"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="WED"
+            android:textColor="@color/black"
+            android:textAlignment="center"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:textStyle="bold"
+            android:fontFamily="@font/alata"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="THUR"
+            android:textColor="@color/black"
+            android:textAlignment="center"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:textStyle="bold"
+            android:fontFamily="@font/alata"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="FRI"
+            android:textColor="@color/black"
+            android:textAlignment="center"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:textStyle="bold"
+            android:fontFamily="@font/alata"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="SAT"
+            android:textColor="@color/black"
+            android:textAlignment="center"
+            android:textSize="16sp"/>
+    </LinearLayout>
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_marginTop="55dp"
+        app:layout_constraintTop_toBottomOf="@+id/llabc"
+        android:id="@+id/calendarRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"/>
+    <LinearLayout
+        android:layout_marginTop="500dp"
+        app:layout_constraintTop_toBottomOf="@+id/calendarRecyclerView"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:id="@+id/llShow"
+        android:background="@drawable/background_event"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <View
+            android:layout_marginTop="10dp"
+            android:id="@+id/btnBottomSheet"
+            android:layout_width="60dp"
+            android:layout_height="2dp"
+            android:textSize="20dp"
+            android:background="@color/black"
+            android:layout_gravity="center"
+            />
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp">
+            <TextView
+                android:fontFamily="@font/alata"
+                android:id="@+id/TimeEventCell"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+                android:layout_weight="15"
+                android:text="Thời gian"
+                android:layout_marginLeft="5dp"
+                android:textColor="@color/black"
+                android:textAllCaps="false"
+                />
+            <TextView
+                android:fontFamily="@font/alata"
+                android:id="@+id/HomNay"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Hôm nay"
+                android:textSize="25dp"
+                android:layout_weight="1"
+                android:textColor="@color/black"/>
+        </LinearLayout>
+        <View
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="1dp"
+            android:background="@color/black"/>
+        <ListView
+            android:id="@+id/eventListView"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="5"/>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+

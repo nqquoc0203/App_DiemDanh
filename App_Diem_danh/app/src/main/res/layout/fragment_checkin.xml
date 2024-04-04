@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Fragment.CheckinFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Chưa đến thời gian điểm danh\nMời bạn quay lại sau"
+            android:visibility="gone"
+            android:id="@+id/none"
+            android:gravity="center"
+            android:textAppearance="@style/TextBig"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:id="@+id/checkin"
+        android:gravity="center_horizontal"
+        android:visibility="visible">
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:cardBackgroundColor="#FFDDE9"
+        app:cardCornerRadius="30dp"
+        app:contentPadding="20dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Lớp học phần:"
+                    android:textAppearance="@style/TextSmall"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tvSubName"
+                    android:text="Lập trình di động"
+                    android:textAppearance="@style/TextSmall"
+                    android:layout_marginStart="20dp"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Tên giáo viên:"
+                    android:textAppearance="@style/TextSmall"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tvSubTeacher"
+                    android:text="Lê Thị Bảo Trân"
+                    android:textAppearance="@style/TextSmall"
+                    android:layout_marginStart="20dp"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Phòng:"
+                    android:textAppearance="@style/TextSmall"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tvSubRoom"
+                    android:text="B44"
+                    android:textAppearance="@style/TextSmall"
+                    android:layout_marginStart="20dp"/>
+            </LinearLayout>
+        </LinearLayout>
+    </com.google.android.material.card.MaterialCardView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Thời gian còn lại"
+        android:textAppearance="@style/TextBig"
+        android:layout_marginTop="40dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvTime"
+        android:textAppearance="@style/TextSmall"
+        android:textSize="30dp"
+        android:layout_marginTop="20dp"/>
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="260dp"
+        android:layout_height="90dp"
+        app:backgroundTint="#FFF0C8"
+        app:cornerRadius="100dp"
+        android:id="@+id/btnCheckin"
+        android:text="Điểm danh"
+        android:textAppearance="@style/TextSmall"
+        android:textSize="30dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="100dp"/>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "500865184110",
+    "project_id": "doan-8e790",
+    "storage_bucket": "doan-8e790.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:500865184110:android:761437782bf49278fb517f",
+        "android_client_info": {
+          "package_name": "com.example.deanmoi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "500865184110-r1ns990l5al3rjueng3jn7p52volh2j0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDcVIEksbHQ8W8baJPezL6G34nsRU-ckYI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "500865184110-r1ns990l5al3rjueng3jn7p52volh2j0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

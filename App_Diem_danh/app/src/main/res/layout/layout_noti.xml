@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="10dp"
+    android:orientation="vertical">
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="30dp"
+        app:cardBackgroundColor="@color/black"
+        app:contentPaddingLeft="10dp"
+        app:contentPaddingRight="10dp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="11/04/2023"
+            android:id="@+id/tvDate"
+            android:textAppearance="@style/TextSmall"
+            android:textSize="15sp"
+            android:textColor="@color/white"/>
+    </com.google.android.material.card.MaterialCardView>
+    
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        app:cardBackgroundColor="#E6E6FF"
+        app:cardCornerRadius="20dp"
+        app:contentPaddingLeft="15dp"
+        app:contentPaddingRight="15dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nhắc nhở:"
+            android:id="@+id/tvTitle"
+            android:textAppearance="@style/TextSmall"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvDesc"
+            android:layout_marginTop="30dp"
+            android:text="Nhớ đổi mật khẩu khi đăng nhập lần đầu."
+            android:textAppearance="@style/TextSmall"/>
+
+    </com.google.android.material.card.MaterialCardView>
+
+</LinearLayout>
