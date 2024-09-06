@@ -1,25 +1,12 @@
-![iPhone 14 Pro - layout](https://github.com/nqquoc0203/App_DiemDanh/assets/116379277/33ca48d5-ab89-4c31-b835-c23e3d8b1aea)
-
-![iPhone 14 Pro - Login](https://github.com/nqquoc0203/App_DiemDanh/assets/116379277/e324ed0e-b960-48b9-b7ea-d6ea64bab708)
-
-![iPhone 14 Pro - Profile](https://github.com/nqquoc0203/App_DiemDanh/assets/116379277/48c4ecfe-f618-426d-a640-0aa013f96fa6)
-
-![iPhone 14 Pro - Reset Password](https://github.com/nqquoc0203/App_DiemDanh/assets/116379277/b30eb8b1-dc44-42ea-bfce-4b6291622e73)
-
-![iPhone 14 Pro - Home](https://github.com/nqquoc0203/App_DiemDanh/assets/116379277/987c9ac5-005f-40e4-84b9-de8404654e09)
-
-![iPhone 14 Pro - Attendance](https://github.com/nqquoc0203/App_DiemDanh/assets/116379277/c6eb8332-f2cb-4ad3-9068-43c8ecdae066)
-
-![iPhone 14 Pro - Attendance-1](https://github.com/nqquoc0203/App_DiemDanh/assets/116379277/2c48be60-4a0f-4ef9-8f29-bccb95c55379)
-
-![iPhone 14 Pro - History](https://github.com/nqquoc0203/App_DiemDanh/assets/116379277/fac1ea85-d2f6-4d79-b117-bd94376b7a11)
-
-![iPhone 14 Pro - Notification](https://github.com/nqquoc0203/App_DiemDanh/assets/116379277/1af7a569-813d-4763-bab5-831fdd30482b)
-
-![iPhone 14 Pro -  schedule](https://github.com/nqquoc0203/App_DiemDanh/assets/116379277/e4c1ea0c-8f38-4f01-a13a-3696c628fdb5)
-
-![iPhone 14 Pro - Setting](https://github.com/nqquoc0203/App_DiemDanh/assets/116379277/5dde3a0a-93ab-45f2-94fb-473fe13de771)
-
-
-
-
+![iPhone 14 Pro - layout](https://github.com/user-attachments/assets/6e78a800-755e-406d-8a1f-4e272a6e0300)
+![iPhone 14 Pro - Notification 1](https://github.com/user-attachments/assets/2fefeda3-af89-4371-b90b-f25b88b8ba37)
+![iPhone 14 Pro - Login](https://github.com/user-attachments/assets/62e775b5-349c-4c70-ac6f-38020f272b67)
+![iPhone 14 Pro - Home](https://github.com/user-attachments/assets/5dceb695-3573-477e-8b54-0d02a5ffb261)
+![iPhone 14 Pro - Attendance](https://github.com/user-attachments/assets/c1548911-62e7-4b57-81fb-a8fed7aa1370)
+![iPhone 14 Pro - History](https://github.com/user-attachments/assets/8256f235-47a2-401e-9b70-6c0a9e3ff212)
+![iPhone 14 Pro -  schedule](https://github.com/user-attachments/assets/6d97ab0b-4c1e-448a-960d-954fee0806e1)
+![iPhone 14 Pro - schedule test](https://github.com/user-attachments/assets/8791e37a-a788-4afa-8e6c-8a7e72568723)
+![iPhone 14 Pro - Setting](https://github.com/user-attachments/assets/050abd2e-83e9-432a-a109-ec1ad3a9761c)
+![iPhone 14 Pro - Notification 2](https://github.com/user-attachments/assets/3c226deb-a465-47fe-b63f-aa92d811c860)
+![iPhone 14 Pro - Reset Password](https://github.com/user-attachments/assets/197be337-7974-4e8f-b1ae-1b943d8898e8)
+![iPhone 14 Pro - Profile](https://github.com/user-attachments/assets/b006590f-bfbe-4857-8de8-f5a69dfbdaa6)
